@@ -61,7 +61,7 @@
   "scripts": {
     "build": "tsup-node",
     "watch": "tsup-node --watch",
-    "prepare": "yarn install && yarn build || npm run build"
+    "prepare": "yarn run build || npm run build"
   },
   "dependencies": {
     "dedent": "^1.5.1",
