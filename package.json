@@ -65,7 +65,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup-node",
+    "build": "tsup-node -T",
     "watch": "tsup-node --watch"
   },
   "dependencies": {
