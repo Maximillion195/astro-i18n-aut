@@ -19,7 +19,13 @@
   ],
   "homepage": "https://github.com/jlarmstrongiv/astro-i18n-aut/#readme",
   "bugs": "https://github.com/jlarmstrongiv/astro-i18n-aut/issues",
-  "repository": "https://github.com/jlarmstrongiv/astro-i18n-aut.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maximillion195/astro-i18n-aut.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Maximillion195"
+  },
   "license": "MIT",
   "author": "John L. Armstrong IV",
   "sideEffects": false,
@@ -60,8 +66,7 @@
   ],
   "scripts": {
     "build": "tsup-node",
-    "watch": "tsup-node --watch",
-    "prepare": "npm install && npm run build"
+    "watch": "tsup-node --watch"
   },
   "dependencies": {
     "dedent": "^1.5.1",
