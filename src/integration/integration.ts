@@ -47,7 +47,7 @@ export function i18n(userI18nConfig: UserI18nConfig): AstroIntegration {
         ensureValidLocales(locales, defaultLocale, logger);
         await ensureValidConfigs(config, updateConfig, i18nConfig, logger);
         addMiddleware({
-          entrypoint: "astro-i18n-aut/middleware",
+          entrypoint: "@Maximillion195/astro-i18n-aut",
           order: "pre",
         });
 
