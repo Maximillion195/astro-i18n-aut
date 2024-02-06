@@ -7,7 +7,7 @@ export default defineConfig(async (options) => {
   return {
     ...options,
     clean: true,
-    dts: false,
+    dts: true,
     entry: [
       "src/integration/index.ts",
       "src/edge-runtime/index.ts",
